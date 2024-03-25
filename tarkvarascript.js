@@ -82,6 +82,7 @@ function sonakontroll(){
     document.getElementById("vastus").innerHTML = syna ===synad[document.getElementById("random-sona").innerHTML] ? "Õige!" : "Vale!";
 
 }
+//uus funktsioonid
 function vrandomSyna(){
     const keys = Object.keys(vsynad);
     const vjuhuslikSyna = keys[Math.floor(Math.random() * keys.length)];
