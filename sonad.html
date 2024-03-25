@@ -3,20 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Tarkvara sõnad</title>
-  <script src="tarkvarascript.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="tarkvarascript.js"></script>
 </head>
 
 <body>
 <header>
-  Tarkvara sõnad
+    Tarkvara sõnad
 </header>
-<input type="button" value="juhuslik sõna" onclick="randomSyna()">
-<br>
-<br>
-<div id="random-sona"></div>
-<lable for="kontroll">Krijuta sõna vene keeles</lable>
-<input type="text" id="kontroll" onchange="sonakontroll()">
-<div id ="vastus"></div>
+
+<table>
+    <tr>
+        <td>
+            <input type="button" value="juhuslik sõna" onclick="randomSyna()">
+            <div id="random-sona"></div>
+            <label for="kontroll">Kirjuta sõna vene keeles</label>
+            <input type="text" id="kontroll" onchange="sonakontroll()">
+            <div id="vastus"></div>
+        </td>
+
+        <td>
+            <input type="button" value="случайное слово на русском" onclick="vrandomSyna()">
+            <div id="vrandom-sona"></div>
+            <label for="vkontroll">Введите слово на эстонском</label>
+            <input type="text" id="vkontroll" onchange="vsonakontroll()">
+            <div id="vvastus"></div>
+        </td>
+    </tr>
+</table>
 
 </body>
 </html>

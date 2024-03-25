@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: green;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid green;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#vastus, #vvastus {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+#vrandom-sona {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: blue;
+}
+#random-sona {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: blue;
+}
