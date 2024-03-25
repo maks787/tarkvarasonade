@@ -93,4 +93,4 @@ function vrandomSyna(){
 function vsonakontroll(){
     const syna = document.getElementById("vkontroll").value;
     document.getElementById("vvastus").innerHTML = syna === vsynad[document.getElementById("vrandom-sona").innerHTML] ? "Õige!" : "Vale!";
-}
+} //aabb
