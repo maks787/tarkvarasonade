@@ -28,7 +28,7 @@ const synad= {
     'puudused': 'недостатки',
     'elutsükel': 'каскадная модель',
     'arendamine': 'разработка',
-    'valideerimine': 'каскадная модель',
+    'valideerimine': 'каскадная модельa',
 
 
 
